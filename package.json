@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel -d lib src"
+    "build": "babel -d lib src",
+    "prepublish": "npm run build"
   },
   "bin": {
     "s3-img-uploader": "./bin/s3-img-uploader"
