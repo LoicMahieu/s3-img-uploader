@@ -1,6 +1,6 @@
 {
   "name": "s3-img-uploader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple cli module for easily upload images to S3.",
   "main": "index.js",
   "scripts": {
