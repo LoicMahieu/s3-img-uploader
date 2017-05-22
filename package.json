@@ -1,0 +1,29 @@
+{
+  "name": "s3-img-uploader",
+  "version": "0.0.0",
+  "description": "Simple cli module for easily upload images to S3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d lib src"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~2.3.0",
+    "async-replace": "~1.0.1",
+    "aws-sdk": "~2.46.0",
+    "hasha": "~2.2.0",
+    "lodash": "~4.17.4",
+    "mimetype": "0.0.8",
+    "readable-stream": "~2.2.9",
+    "rev-path": "~1.0.0",
+    "yargs": "~7.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "~6.24.1",
+    "babel-core": "~6.24.1",
+    "babel-plugin-transform-object-rest-spread": "~6.23.0",
+    "babel-preset-es2015": "~6.24.1"
+  }
+}
